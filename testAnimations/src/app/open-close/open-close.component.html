@@ -1,0 +1,10 @@
+
+
+<div [@openClose]="isOpen ? 'open' : 'closed'" class="open-close-container">
+  <button (click)="toggle()">Toggle Open/Close</button>
+</div>
+
+
+<div [@openCloseReusable]="isOpen2 ? 'open' : 'closed'" class="open-close-container">
+  <button (click)="toggleReusable()">Toggle Open/Close</button>
+</div>
